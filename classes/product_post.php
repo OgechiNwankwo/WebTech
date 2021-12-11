@@ -34,9 +34,6 @@ class Post extends db_connection {
 
     
     public function updateProductInfo($product_name,$price,$quantity){
-        echo $product_name;
-        echo $price;
-        echo $quantity;
         // sql query
         $sql = "UPDATE `PRODUCT_TABLE` SET `price_per_product`='$price', `quantity`='$quantity' WHERE `productname`='$product_name'";
 
