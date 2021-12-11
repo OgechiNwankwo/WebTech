@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin:0px;
+    padding: 0px;
+    margin: auto;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    width: 100vw;
+    height: 100vh;
+}
+
+main{
+    height: 100%;
+    width: 100vw;
+    background-color: #18945e;
+}
+
+.main-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    
+}
+
+.form-left-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 35%;
+    height: 600px;
+    box-shadow:  -1px 1px 5px 0px rgb(0 0 0 / 37%);
+    background-color: #fff;
+}
+
+.content .account-icon{
+    display: flex;
+    justify-content: center;
+}
+
+.content .account-icon i{
+    font-size: 100px;
+    margin-bottom: 100px;
+}
+
+.content p{
+    margin-bottom: 20px;
+    color: rgb(128, 128, 128);
+    text-align: center;
+}
+
+.form-group{
+    margin-bottom: 10px;
+}
+
+.form-group input{
+    width: 100%;
+    padding: 10px 5px;
+    border-radius: 5px;
+    outline: none;
+    border: 0.5px solid rgba(0,0,0,0.3);
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+/* .btn a{
+    text-decoration: none;
+    background-color: #3030aaab;
+    color: #fff;
+    padding: 10px 10px;
+    transition: all ease-in-out 0.5s;
+} */
+.btn a:hover{
+    background-color: blue;
+}
+
+.no-account{
+    font-size: 14px;
+}
+
+.back{
+    padding-left: 5px;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 880px) {
+    .form-left-content{
+        width: 50%;
+    }
+
+    .form-group{
+        width: 270px;
+    }
+}
+
+@media only screen and (max-width: 670px) {
+    .form-left-content{
+        width: 60%;
+    }
+
+    .form-group{
+        width: 240px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .form-left-content{
+        width: 80%;
+    }
+
+    .form-group{
+        width: 240px;
+    }
+}
+
+@media only screen and (max-width: 390px) {
+    .form-left-content{
+        width: 90%;
+    }
+
+    .form-group{
+        width: 200px;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    .form-left-content{
+        width: 90%;
+    }
+
+    .form-group{
+        width: 160px;
+    }
+}
