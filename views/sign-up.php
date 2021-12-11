@@ -51,7 +51,7 @@
 			$createNewUser = createUser($fullname,$email,$password);
             if($createNewUser){
                 $account_creation_successful=<<<EOD
-                <div>Account Created Successfully <a href="./sign-in.php">Login</a></div>
+                <div>Account Created Successfully <a href="./index.php">Login</a></div>
                 EOD;
             }
 		}
