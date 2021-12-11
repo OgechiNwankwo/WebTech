@@ -97,10 +97,10 @@
                         <div class="content">
                             <div class="headings">
                                 <h1>WELCOME TO REMS</h1>
-                                <h2>Get all your drugs here</h2>
+                                <h2>Get all your chemicals here</h2>
                             </div>
-                            <p>Get amazing drugs at an affordable price</p>
-                            <p>Get authentic drugs</p>
+                            <p>Get amazing chemicals at an affordable price</p>
+                            <p>Get authentic chemicals</p>
                             <p>At REMS we price in quality</p>
                         </div>
                     </div>
