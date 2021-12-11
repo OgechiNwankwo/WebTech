@@ -116,7 +116,7 @@
                                 </li>
                                 <li class="app-sidebar__heading">Log out</li>
                                 <li>
-                                    <a href="./sign-in.php">
+                                    <a href="./index.php">
                                         <i class="fas fa-sign-out-alt"></i>
                                         Log out
                                     </a>
