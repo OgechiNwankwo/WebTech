@@ -19,7 +19,7 @@
 	//connect to post controller
         require("../controllers/users_controller.php");
 		
-		$errors=array('email'=>'','password'=>'', 'confirm_password'=>'');
+		$errors=[];
 		$fullname=$email=$password=$confirm_password=$account_creation_successful='';
 
 		if(isset($_POST['submit'])){
@@ -48,12 +48,12 @@
 
 
 			$password=md5($password);
-			$createNewUser = createUser($fullname,$email,$password);
-            if($createNewUser){
-                $account_creation_successful=<<<EOD
-                <div>Account Created Successfully <a href="./index.php">Login</a></div>
-                EOD;
-            }
+			if(count($errors)==0){
+				$createNewUser = createUser($fullname,$email,$password);
+				$account_creation_successful=<<<EOD
+				<div>Account Created Successfully <a href="./index.php">Login</a></div>
+				EOD;
+		    }
 		}
 
 	?>
